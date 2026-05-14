@@ -1,0 +1,61 @@
+/* WCAG AA Pass
+   WCAG AAA Fail
+   Assignment asks for AA*/
+body {
+  background-color: #333333;
+  color: #bebebe;
+}
+
+/* A "card", margin ensures space such that no 2 cards can interfere/be right next to each other. */
+article {
+  background-color: #444444;
+  width: 35vw;
+  padding: 0 0 0 0;
+  margin: 10px 10px 10px 10px;
+}
+
+button {
+  width: 100%;
+  padding: 15px 0 15px 0;
+  background: #7af58b;
+  /* Absurdly large to have "full" rounded rect */
+  border-radius: 900px;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #a1ffa1, white, #a1ffa1);
+  color: #000000;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+.prod-name {
+  background-color: #6a5585;
+  color: #ffffff;
+  text-align: center;
+}
+
+.prod-desc {
+  padding: 20px 10px 10px 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+/* Price classes override regular styling and old price overrides current price (inner class, see HTML) */
+.current-price {
+  color: #47f147;
+  font-size: 45px;
+  text-align: center;
+  font-style: italic;
+}
+
+.old-price {
+  color: #86c4a5;
+  font-size: 20px;
+  font-style: normal;
+}
